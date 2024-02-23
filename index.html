@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
-      main{
+      main {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -22,26 +22,33 @@
         padding: 4rem;
       }
 
-
+      .nav-item a{
+        text-decoration: none;
+        color: wheat;
+      }
     </style>
     <header>
-        <h1 id="title">aaaa</h1>
-        <nav>
-            <ul class="nav-item">
-                <li id="home">Home</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
+      <h1 id="title">aaaa</h1>
+      <nav class="nav-item">
+        <a href="" id="home">Home</a>
+        <a href="" id="contact">Contact</a>
+    
+        
+      </nav>
     </header>
     <main>
-        <section id="projects">
-            <h3>Projects</h3>
-            <ul>
+      <section>
+        <input type="text" id="username" placeholder="User name"/>
+        <input type="password" id="password" placeholder="Password"/>
+        <button class="btn">Login</button>
+      </section>
 
-            </ul>
-        </section>
+      <section id="projects">
+        <h3>Projects</h3>
+        <ul></ul>
+      </section>
     </main>
 
     <script src="./app.js"></script>
-</body>
+  </body>
 </html>
