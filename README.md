@@ -5,10 +5,10 @@
 In this project, the following html structure has been modified using JS DOM. The current state of the HTML output and its structure after adding JS are shown in the images below.
 
 ## Before
-[before](./img/before.png)
+<img src="./img/before.png">
 
 ## After
-[after](./img/after.PNG)
+<img src="./img/after.PNG">
 
 ## Technologies:
 - HTML
